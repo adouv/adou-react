@@ -1,2 +1,0 @@
-# adou-react
-react
