@@ -1,9 +1,10 @@
-import React, { Component } from 'react';
+import React, { Component, useState } from 'react';
 import logo from './logo.svg';
 import './App.scss';
 
 export default class App extends Component {
   public render() {
+    const [count, setCount] = useState(0);
     return (
       <div className="App">
         <header className="App-header">
@@ -16,9 +17,10 @@ export default class App extends Component {
             href="https://reactjs.org"
             target="_blank"
             rel="noopener noreferrer"
+            onClick={() => setCount(count + 1)}
           >
-            Learn React
-        </a>
+            Learn React {count}
+          </a>
         </header>
       </div>
     );
