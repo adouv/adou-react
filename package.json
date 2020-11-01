@@ -38,6 +38,7 @@
         ]
     },
     "devDependencies": {
+        "http-proxy-middleware": "^1.0.6",
         "node-sass": "^4.13.1",
         "sass-loader": "^8.0.2"
     }
