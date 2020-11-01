@@ -23,7 +23,6 @@ export default class App extends Component {
           </div>
         </div>
 
-
         <div className="adv-main">
           <ul>
             <li>
